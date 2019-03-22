@@ -1,0 +1,143 @@
+@font-face{
+	font-family: Roboto;
+	src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+*{
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif; 
+}
+body{
+	text-align: center;
+	background-color: rgb(230, 236, 240);
+}
+button{
+	cursor: pointer;
+	border-radius: 100px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 20px;
+	margin-right: 10px;
+	border: none;
+	background-color: #00aced;
+	border: 1px solid #00aced;
+}
+button:active{
+	background-color: #0088ed;
+	border-color: #0088ed;
+}
+span{
+	cursor: pointer;
+	color: #00aced;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*The Navbar*/
+#navbar{
+	position: fixed;
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+#navbar .container{
+	height: 50px;
+	width: 800px;
+	display: inline-block;
+}
+#navbar .container img{
+	margin-top: 4px;
+}
+#navbar .container table tr td:first-child{
+	border-bottom: 2px solid #00aced;
+	padding-bottom: 2px;
+}
+.logout{
+	float: right;
+	margin-top: -40px;
+	font-weight: bold;
+	color: #555;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/*Feed*/
+.feed{
+	vertical-align: top;
+	margin-top: 65px;
+	width: 800px;
+	background-color: #fff;
+	display: inline-block;
+}
+.feed-inside{
+	text-align: left;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+.feed-inside .image{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 10px;
+}
+.feed-inside:hover{
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+.feed-inside .title{
+	width: 540px;
+	display: inline-block;
+	color: #00aced;
+}
+.feed-inside .company-name{
+	display: inline-block;
+	font-size: 14px;
+	color: #555;
+	font-weight: bold;
+}
+.feed-inside .location{
+	color: #ff3300;
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+.feed-inside .description:first-child{
+	margin-top: 7px;
+}
+.feed-inside .description{
+	color: #555;
+	font-size: 13px;
+	display: block;
+}
+.feed-inside .description b{
+	font-size: 14px;
+}
+.hidden{
+	display: none;
+}
+.feed-inside button{
+	float: right;
+	margin-top: 20px;
+	font-size: 14px;
+	padding: 5px 8px;
+}
+
+.feed h1{
+	text-align: left;
+	padding: 7px 0 7px 10px;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+a{
+	text-decoration: none;
+}
